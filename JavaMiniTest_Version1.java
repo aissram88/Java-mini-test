@@ -1,5 +1,3 @@
-package Q41_Q50;
-
 import java.util.Scanner;
 
 public class JavaMiniTest_Version1 {
