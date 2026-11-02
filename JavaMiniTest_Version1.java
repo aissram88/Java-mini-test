@@ -2,7 +2,7 @@ package Q41_Q50;
 
 import java.util.Scanner;
 
-public class Q50_JavaMiniTest {
+public class JavaMiniTest_Version1 {
 	static int numberOfCorrectAnswer = 0; 
 	static int numberOfIncorrectAnswer = 0;
 	
