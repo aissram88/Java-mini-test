@@ -1,8 +1,6 @@
-package Q41_Q50;
-
 import java.util.Scanner;
 
-public class Q50_JavaMiniTest_part2 {
+public class JavaMiniTest_Version2 {
 	
 	static String[] questions = {
 		"Which is the entry point method is Java?",
