@@ -1,5 +1,19 @@
 # Java-mini-test
-Java application designed to test and assess users' knowledge through interactive 4-choice multiple-choice questions.
+**Request:** To create a mini-test system that combines methods for presenting and grading 4-choice quizzes.
+
+**Specifications:**
+
+**1:** * Hold question statements, choices, and correct answers as data.
+
+**2:** * A method to display each question.
+
+**3:** * A method to check the answers (tested using automated answers for this run).
+
+**4:** * A method to tally and display the results.
+
+# Expected Output
+<img width="703" height="247" alt="Java_mini_test_expected" src="https://github.com/user-attachments/assets/0bb1d6e8-abda-4c26-86b8-d03061bba2aa" />
+
 
 # Overview
 A console-based Java mini-test system that presents 4-choice multiple-choice questions, grades the user's answers in real time, and calculates the final score and evaluation.
