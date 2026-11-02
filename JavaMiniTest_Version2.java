@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class JavaMiniTest_Version2 {
 	
+	//define questions data, choices data, answers data
 	static String[] questions = {
 		"Which is the entry point method is Java?",
 		"Which is default value of int?",
@@ -23,6 +24,7 @@ public class JavaMiniTest_Version2 {
 	static int numberOfCorrect = 0;
 	static int totalQuestions = questions.length;
 	
+	//a method is to display the question and choice. ask a user an answer
 	static void runQuiz(Scanner sc, int index) {
 		System.out.println("【Question: "+ (index+1) + "】 " + questions[index]);
 		
@@ -37,6 +39,8 @@ public class JavaMiniTest_Version2 {
 				System.out.println("D:"+ choices[index][i]);
 			}//end of if loop
 		}// end of for loop
+		
+		
 		System.out.println("Please type your answer (A,B,C,D): ");
 		String userAnswer = sc.next();
 		
@@ -48,6 +52,7 @@ public class JavaMiniTest_Version2 {
 		}
 	}//end of runQuiz method
 	
+	// a method is to aggregate and display result
 	static void checkResult(int numberOfCorrectAnswer) {
 		System.out.println("===The test result===");
 		System.out.println("The number of correct answer: "+ numberOfCorrectAnswer + "/" + totalQuestions);
@@ -70,10 +75,14 @@ public static void main(String[] args) {
 	
 	System.out.println("=====Java Mini Quiz!!=====");
 	
+	// display all questions using for loop
 	for(int i=0 ; i < totalQuestions; i++) {
 		runQuiz(sc,i);
 	}
 	
+	// display final results
 	checkResult(numberOfCorrect);
+	
+	sc.close();
 } 
 }
